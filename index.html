@@ -1810,7 +1810,8 @@
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
 								<div class="contact_form">
-									<form id="cform" method="post" action="mail.php">
+									<form id="cform"  action="https://formspree.io/f/xeqvnzyz"
+									method="POST" enctype="multipart/form-data">
 										<div class="row">
 											<div class="col col-d-6 col-t-6 col-m-12">
 												<div class="group-val">
@@ -1819,7 +1820,7 @@
 											</div>
 											<div class="col col-d-6 col-t-6 col-m-12">
 												<div class="group-val">
-													<input type="text" name="email" placeholder="Email Address" />
+													<input type="email" name="_replyto" placeholder="Email Address" />
 												</div>
 											</div>
 											<div class="col col-d-12 col-t-12 col-m-12">
@@ -1829,7 +1830,8 @@
 											</div>
 										</div>
 										<div class="align-left">
-											<button  class="button send_message_btn" name="send_message_btn" onclick="$('#cform').submit(); return false;">
+											<!-- <button  class="button send_message_btn" name="send_message_btn" onclick="$('#cform').submit(); return false;"> -->
+												<button  class="button" type="submit">Send</button>
 												<span class="text">Send Message</span>
 												<span class="arrow"></span>
 											</button>
