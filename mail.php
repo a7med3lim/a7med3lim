@@ -18,7 +18,7 @@ if (isset($_POST['send_message_btn'])) {
 	<h1>" . $subject . "</h1>
 	<p>The Clint Name: <strong> ". $name." </strong></p>
 	<p>The Clint Mail: <strong> ".$email." </strong></p>
-	<p>The Clint Number: <strong> ".$phonenumber." </strong></p>
+	// <p>The Clint Number: <strong> ".$phonenumber." </strong></p>
 	<p>Message:</p>
 	<p> ".$msg." </p>
 	</body>
