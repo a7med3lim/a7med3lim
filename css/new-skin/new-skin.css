@@ -2,7 +2,9 @@
 /*
 	New Skin
 */
-
+.d-none{
+	display: none !important;
+}
 body {
 	font-size: 16px;
 	color: #646464;
