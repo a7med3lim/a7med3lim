@@ -1325,6 +1325,8 @@ input[type="file"] {
 .box-item .image {
 	overflow: hidden;
 	z-index: 2;
+	border-radius: 0.2rem;
+    box-shadow: -2px 4px 7px 2px #00000026;
 }
 
 .box-item .image a img {
