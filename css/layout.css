@@ -1410,12 +1410,14 @@
 	top: 0;
 	right: 0;
 	color: #171717;
+	/* position: fixed; */
 }
 
 @media (max-width: 720px) {
 	.mfp-wrap.popup-box-inline .mfp-close {
 		right: 0;
 		top: 0;
+		position: fixed;
 	}
 
 }
